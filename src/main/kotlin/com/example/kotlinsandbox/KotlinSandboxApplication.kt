@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class KotlinSandboxApplication
 
 fun main(args: Array<String>) {
-	runApplication<KotlinSandboxApplication>(*args)
+  runApplication<KotlinSandboxApplication>(*args)
 }

@@ -9,6 +9,11 @@ export default defineConfig({
   build: {
     outDir: '../src/main/resources/public',
   },
+  server: {
+    proxy: {
+      '/api': 'http://localhost:8080',
+    },
+  },
   test: {
     globals: true,
     environment: 'happy-dom',

@@ -3,6 +3,7 @@
   "description": "The frontend half of the BFF kotlin spring sandbox; built with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "author": {
     "name": "adam sisk",
     "email": "sisk@hey.com",
